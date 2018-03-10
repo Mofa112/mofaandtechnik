@@ -1,0 +1,74 @@
+.navbar-inverse {
+    background-color: #424242;
+    border-color: #424242;
+    border-radius: 0px;
+}
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+.navbar-inverse .navbar-brand:hover {
+    
+}
+.navbar-inverse .navbar-nav > li > a {
+    text-align: center;
+    color: #e6e6e6;
+    border-radius: 2px;
+    width: 175px;
+	height:55px;
+    margin:auto;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+    background-color: #C62828 !important;
+    transition: 0.3s;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    background: #a92323;
+ }
+.navbar-inverse .navbar-toggle {
+    border-color: blue;
+}
+.navbar-inverse .navbar-toggle:hover {
+    background-color: blue;
+}
+.navbar-inverse .navbar-toggle:focus {
+    background-color: blue;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.dropdown-menu {
+    background-color: lightgrey;
+    min-width: 175px !important;
+    box-shadow: none;
+}
+.dropdown-menu:hover {
+    box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.3);
+    transition: 0.2s;
+}
+.dropdown-menu > li > a {
+    height: 35px;
+    text-align: center;
+    padding: 8px;
+    background-color:lightgrey;
+}
+.dropdown-menu > li > a:hover {
+    background-color: #C62828;
+    transition: 0.2s;
+}
+
+#main {
+    transition: margin-left .5s;
+}
+
+
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    color:white;
+}
