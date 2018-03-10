@@ -62,7 +62,6 @@
     transition: margin-left .5s;
 }
 
-
 a:link {
     text-decoration: none;
 }
@@ -71,4 +70,8 @@ a:visited {
 }
 a:hover {
     color:white;
+}
+
+.material-icons {
+    float:left;
 }
